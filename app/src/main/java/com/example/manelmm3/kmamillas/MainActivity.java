@@ -1,5 +1,6 @@
 package com.example.manelmm3.kmamillas;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -40,5 +41,10 @@ public class MainActivity extends AppCompatActivity {
             String skm = Float.toString(km);
             editKm.setText(skm);
         }
+    }
+
+    public void About(View view) {
+        Intent about = new Intent(this, AboutActivity.class);
+        startActivity(about);
     }
 }
