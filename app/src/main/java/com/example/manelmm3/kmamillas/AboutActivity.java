@@ -12,9 +12,4 @@ public class AboutActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
     }
-
-    public void Atras(View view) {
-        Intent mainActivity = new Intent(this, MainActivity.class);
-        startActivity(mainActivity);
-    }
 }
